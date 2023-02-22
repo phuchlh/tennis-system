@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tennis_booking_app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Tennisbookingapp">
+        <activity
+            android:name=".DanhGia"
+            android:exported="false" />
+        <activity
+            android:name=".PhucHLH.ListCourtNear"
+            android:exported="false" />
+        <activity
+            android:name=".PhucHLH.SearchPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SendFeedback"
+            android:exported="false" />
+        <activity
+            android:name=".PhucHLH.SpecificCourtsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.home.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".YardDetail"
+            android:exported="false" />
+        <activity
+            android:name=".PhucHLH.LoginFacebookGoogleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Done"
+            android:exported="false" />
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailsPromotion"
+            android:exported="false" />
+        <activity
+            android:name=".Promotion"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpSuccess"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Retrieval"
+            android:exported="false" />
+        <activity
+            android:name=".LichSu"
+            android:exported="false" />
+        <activity
+            android:name=".ThanhCong"
+            android:exported="false" />
+        <activity
+            android:name=".DangXuat"
+            android:exported="false" />
+        <activity
+            android:name=".HuySan"
+            android:exported="false" />
+        <activity
+            android:name=".ChucMung"
+            android:exported="false" />
+        <activity
+            android:name=".ConfirmBooking"
+            android:exported="false" />
+
+        <activity
+            android:name=".Booking"
+            android:exported="false" />
+        <activity
+            android:name=".StartsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PhucHLH.ReadyLogin"
+            android:exported="false" />
+        <activity
+            android:name=".PhucHLH.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

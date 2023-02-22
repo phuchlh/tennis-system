@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhucHLH.SearchPageActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <EditText
+            android:id="@+id/txtSearch"
+            android:layout_width="350dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Bạn đang tìm gì đấy"
+            android:imeOptions="actionSearch"
+            android:inputType="text" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="80dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/inter_bold"
+            android:text="Được tìm kiếm phổ biến"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/my_button_bg"
+            android:text="Sân cỏ"
+            android:textAlignment="center"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/my_button_bg"
+            android:text="Sân trong nhà"
+            android:textAlignment="center"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/my_button_bg"
+            android:text="Có trọng tài"
+            android:textAlignment="center"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/my_button_bg"
+            android:text="Sân giá rẻ"
+            android:textAlignment="center"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/my_button_bg"
+            android:text="Có sân khởi động"
+            android:textAlignment="center"
+            android:textSize="12dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgHinh"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/txtTensan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/imgHinh"
+        android:fontFamily="@font/inter"
+        android:text="Tên Sân"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtDientich"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTensan"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/imgHinh"
+        android:fontFamily="@font/inter"
+        android:text="Diện Tích"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/txtTien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDientich"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/imgHinh"
+        android:fontFamily="@font/inter"
+        android:text="Giá Tiền"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:id="@+id/loRatingDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="86dp"
+        android:layout_toEndOf="@+id/imgHinh"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rate" />
+
+        <ImageView
+            android:layout_width="13dp"
+            android:layout_height="14dp"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/ic_star_svgrepo_com" />
+
+        <TextView
+            android:id="@+id/txtKhoangCach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="distance" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_location" />
+    </LinearLayout>
+</RelativeLayout>

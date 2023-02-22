@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Booking">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/green"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/green"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:src="@drawable/line"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="116dp"
+        android:fontFamily="@font/inter"
+        android:text="Chọn ngày chơi:"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="172dp"
+        android:fontFamily="@font/inter"
+        android:text="Ca chơi"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="172dp"
+        android:fontFamily="@font/inter"
+        android:text="Thời Lượng"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="304dp"
+        android:layout_marginTop="172dp"
+        android:fontFamily="@font/inter"
+        android:text="Giá Tiền"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/edtTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="110dp"
+        android:focusable="false"
+        android:hint="dd/MM/yyyy"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtTennis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/abhaya_libre_medium"
+        android:text="Tên Sân"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        tools:ignore="MissingConstraints" />
+
+    <ListView
+        android:id="@+id/lvCaChoi"
+        android:layout_width="414dp"
+        android:layout_height="500dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="740dp"
+        android:backgroundTint="@color/green_main"
+        android:drawableTint="@color/green_main"
+        android:text="Tiếp Tục"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <ImageView
+        android:id="@+id/imgUserDG"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/txtTenDG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/imgUserDG"
+        android:hint="Tên người dùng"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgSao"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/txtTenDG"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@+id/imgUserDG" />
+    <TextView
+        android:id="@+id/txtDanhGia"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/imgUserDG"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="Sân mới sạch sẽ,dịch vụ tốt"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

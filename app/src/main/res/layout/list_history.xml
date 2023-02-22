@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:id="@+id/txtTenHis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@+id/imgLogo"
+        android:fontFamily="@font/inter"
+        android:text="Tên Sân"
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/txtCaHis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTenHis"
+        android:layout_marginLeft="71dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@+id/imgLogo"
+        android:fontFamily="@font/inter"
+        android:text="Slot chơi"
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/txtNgayGio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtCaHis"
+        android:layout_marginLeft="71dp"
+        android:layout_marginTop="-3dp"
+        android:layout_toRightOf="@+id/imgLogo"
+        android:fontFamily="@font/inter"
+        android:text="Ngày giờ đặt"
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/txtTienHis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/inter"
+        android:text="Giá Tiền"
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rvSan"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp">
+
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imgHinhPromo"-->
+    <!--        android:layout_width="140dp"-->
+    <!--        app:srcCompat="@drawable/san1a"-->
+    <!--        android:layout_marginTop="-25dp"-->
+    <!--        android:layout_height="140dp" />-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:id="@+id/imgHinhPromo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtCodePromo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Khuyễn Mãi"
+            android:textColor="@color/red"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/txtTenSanPromo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên sân nè"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:id="@+id/loRatingDistance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="1dp"
+                >
+
+                <TextView
+                    android:id="@+id/txtRating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="rate" />
+
+                <ImageView
+                    android:layout_width="13dp"
+                    android:layout_height="14dp"
+                    android:layout_marginTop="3dp"
+                    app:srcCompat="@drawable/ic_star_svgrepo_com" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtKhoangCach"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="distance" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:srcCompat="@drawable/ic_location" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtDienTichPromo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diện tích"
+            android:background="#F8D5B4"
+            android:textSize="12dp"
+            android:layout_marginTop="2dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
